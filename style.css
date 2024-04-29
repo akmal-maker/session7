@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 nav ul {
   list-style: none;
@@ -26,7 +27,7 @@ nav ul li a {
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 1% 5%;
+  padding: 2% 5%;
   box-shadow: 0px 5px 15px rgb(167, 172, 172);
   background-color: #e3e6f3;
 }
@@ -67,6 +68,7 @@ header .cap h4,
 header .cap p,
 header a {
   font-size: 20px;
+  margin: 10px;
 }
 
 header a {
@@ -75,12 +77,46 @@ header a {
   padding: 2.5% 15%;
 }
 
-header h4 , header h2{
+header h4,
+header h2 {
   color: #2e2e2e;
 }
-header h1{
+header h1 {
   color: #0bc7ba;
 }
 header p {
   color: rgb(70, 91, 82);
+}
+body {
+  margin: 20px;
+  padding: 20px;
+}
+.section1 {
+  display: flex;
+  justify-content: space-around;
+  margin: 70px;
+}
+.section1 div {
+  /* width: 15%; */
+
+  height: 230px;
+  /* text-align: center; */
+  margin: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  border: solid 1px rgb(172, 221, 172);
+  border-radius: 3px;
+}
+.section1 div p {
+  /* margin-top: 20px; */
+  margin: 39px;
+  color: #0bc7ba;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  /* text-align: center; */
+  border-radius: 4px;
+}
+.section1 div img {
+  margin: 10px;
 }
